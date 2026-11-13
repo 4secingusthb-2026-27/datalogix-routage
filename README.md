@@ -51,3 +51,12 @@ datalogix-routage/
 
 Aucun script n'est injecté sur un routeur sans validation de l'Architecte et du Coordinateur.
 Une configuration validée est d'abord poussée sur Git, puis collée dans le simulateur.
+## 7. workflow Git
+git checkout votre branche avec ton nom et type modification apres termination de la modification, faire un commit et un push. Ensuite, créer une pull request pour que l'architecte valide la modification avant de merger dans la branche principale.
+exemple de commande git:
+```bash
+git checkout -b wailsb/refact/reimplementation-topology
+git add .
+git commit -m "refact: reimplementation topology...."
+git push origin wailsb/refact/reimplementation-topology
+```
