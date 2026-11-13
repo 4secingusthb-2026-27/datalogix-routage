@@ -20,9 +20,9 @@ L'équipe travaille avec 4 rôles : Chef de projet, Architecte, Ingénieur Confi
 
 | Scénario | Problème | Solution |
 |---|---|---|
-| 1 - Facile | 3 routeurs en triangle, 3 LAN | VLSM sur 192.168.10.0/24 + OSPF mono-zone |
-| 2 - Intermédiaire | Siège OSPF et filiale EIGRP isolés | Area 1 + résumé de routes + redistribution bidirectionnelle |
-| 3 - Difficile | Accès FAI et trafic web mal routé | eBGP (AS 65500) + prefix-list/route-map + PBR ports 80/443 |
+| 1 | 3 routeurs en triangle, 3 LAN | VLSM sur 192.168.10.0/24 + OSPF mono-zone |
+| 2 | Siège OSPF et filiale EIGRP isolés | Area 1 + résumé de routes + redistribution bidirectionnelle |
+| 3 | Accès FAI et trafic web mal routé | eBGP (AS 65500) + prefix-list/route-map + PBR ports 80/443 |
 
 ## 4. Résultats attendus
 
